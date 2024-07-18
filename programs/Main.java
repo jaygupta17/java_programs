@@ -9,33 +9,52 @@ class Main{
                 int[][] m1 = new int[m][n];
                 int[][] m2 = new int[k][l];
                 int[][] result = new int[m][l];
-                if (n!=k) {
-                    System.out.println("Error");
-                    return;
-                }
-                for(int i=0; i<m;i++){
-                    for(int j=0; j<n;j++){
-                        m1[i][j] = sn.nextInt();
-                    }
-                }
-                for(int i=0; i<k;i++){
-                    for(int j=0; j<l;j++){
-                        m2[i][j] = sn.nextInt();
-                    }
-                }   
 
-                for(int i=0;i<m;i++){
-                    for(int j=0;j<n;j++){
-                        result[i][j] += m2[j][i]*m1[i][j];
-                    }
-                }
-                for(int i=0; i<m;i++){
-                    for(int j=0; j<l;j++){
-                        int a=0;
-                        for(int o=0;o<m;o++){}
-                    }
-                    System.out.println();
-                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                // if (n!=k) {
+                //     System.out.println("Error");
+                //     return;
+                // }
+                // for(int i=0; i<m;i++){
+                //     for(int j=0; j<n;j++){
+                //         m1[i][j] = sn.nextInt();
+                //     }
+                // }
+                // for(int i=0; i<k;i++){
+                //     for(int j=0; j<l;j++){
+                //         m2[i][j] = sn.nextInt();
+                //     }
+                // }   
+
+                // for(int i=0;i<m;i++){
+                //     for(int j=0;j<n;j++){
+                //         result[i][j] += m2[j][i]*m1[i][j];
+                //     }
+                // }
+                // for(int i=0; i<m;i++){
+                //     for(int j=0; j<l;j++){
+                //         int a=0;
+                //         for(int o=0;o<m;o++){}
+                //     }
+                //     System.out.println();
+                // }
                 
                 }
 
