@@ -9,25 +9,25 @@ class Main{
                 int[][] m1 = new int[m][n];
                 int[][] m2 = new int[k][l];
                 int[][] result = new int[m][l];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 // if (n!=k) {
                 //     System.out.println("Error");
                 //     return;
